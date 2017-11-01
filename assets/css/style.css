@@ -1,0 +1,101 @@
+.header {
+	background-color: white;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	width: 100%;
+	position: relative;
+	border-bottom: 2px solid grey;
+}
+
+.jdm {
+	background-color: #4aaaa5;
+	top: 0;
+	height: 80px;
+	position: absolute;
+	color: white;
+	margin-left: 175px;
+	clear: left;
+}
+
+.nav {
+	float: right;
+	margin-right: 175px;
+	font-size: 25px;
+	color: grey;
+	display: inline-block;
+
+}
+
+.derp {
+	
+}
+
+.content {
+	
+	
+	position: relative;
+	margin: 50px 175px 50px 175px;
+	clear: both;
+	z-index: 0;
+}
+
+.footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 10px solid #4aaaa5;
+	background-color: #666666;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+
+
+.sidebar {
+	background-color: white;
+	width: 270px;
+	height: 175px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 20px;
+	border: 1px solid grey;
+	
+}
+
+.sidebar-images {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.main-section {
+	
+	position: absolute;
+	width: 650px;
+	background-color: white;
+	padding: 20px;
+	border: 1px solid grey;
+}
+
+.about-me {
+	color: #4aaaa5;
+	border-bottom: 2px solid grey;
+	margin-bottom: 25px;
+}
+
+.connect {
+	text-align: center;
+	color: #4aaaa5;
+	border-bottom: 1px solid grey;
+}
+
+body {
+	margin: 0;
+}
