@@ -17,15 +17,27 @@
 	color: white;
 	margin-left: 175px;
 	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .nav {
 	float: right;
 	margin-right: 175px;
 	font-size: 25px;
-	color: grey;
+	color: white;
 	display: inline-block;
+	background-color: #4aaaa5;
+	height: 80px;
+}
 
+.nav-group {
+	margin: 25px;
+}
+
+.portfolio {
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
 }
 
 .derp {
