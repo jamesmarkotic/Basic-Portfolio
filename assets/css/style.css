@@ -49,12 +49,11 @@
 }
 
 .content {
-	
-	
+	background-image: url(spiration-light.png);
+	min-height: 100%;
 	position: relative;
-	margin: 50px 175px 50px 175px;
-	clear: both;
-	z-index: 0;
+	
+
 }
 
 .footer {
@@ -63,15 +62,19 @@
 	right: 0;
 	border-top: 10px solid #4aaaa5;
 	background-color: #666666;
-	position: absolute;
+	position: relative;
 	height: 50px;
 	width: 100%;
 	text-align: center;
 	color: white;
 	font-size: 12px;
 	padding-top: 10px;
+
 }
 
+.push {
+	height: 50px;
+}
 
 
 .sidebar {
@@ -83,6 +86,9 @@
 	right: 0;
 	padding: 20px;
 	border: 1px solid #cccccc;
+	margin-top: 50px;
+	margin-right: 175px;
+
 	
 }
 
@@ -98,6 +104,9 @@
 	background-color: white;
 	padding: 20px;
 	border: 1px solid #cccccc;
+	margin-top: 50px;
+	margin-left: 175px;
+
 }
 
 .about-me {
@@ -138,6 +147,7 @@ a {
 	color: grey;
 }
 
-body {
+body, html {
 	margin: 0;
+	height: 100%;
 }
