@@ -49,7 +49,7 @@
 }
 
 .content {
-	background-image: url(spiration-light.png);
+	background-image: url(ep_naturalwhite.png);
 	min-height: 100%;
 	position: relative;
 	
@@ -69,6 +69,7 @@
 	color: white;
 	font-size: 12px;
 	padding-top: 10px;
+	
 
 }
 
@@ -100,6 +101,7 @@
 .main-section {
 	
 	position: absolute;
+	height: auto;
 	width: 650px;
 	background-color: white;
 	padding: 20px;
@@ -109,7 +111,7 @@
 
 }
 
-.about-me {
+.about-me, .portfolio-h  {
 	color: #4aaaa5;
 	border-bottom: 2px solid #cccccc;
 	margin-bottom: 25px;
@@ -119,6 +121,10 @@
 	color: grey;
 	font-size: 20px;
 	line-height: 30px;
+}
+
+.portfolio-content {
+
 }
 
 .portfoliopic {
