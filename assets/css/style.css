@@ -44,16 +44,58 @@
 	padding-right: 20px;
 }
 
+
+
+
+.hangman , .rpg-game , .trivia , .rutgers , .rock-paper {
+	
+	position: relative;
+}
+
 .hangman {
 	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.rpg-game {
+	float: right;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.trivia {
+	float: left;
+	margin: 15px;
+}
+
+.rutgers {
+	float: right;
+	margin: 15px;
+}
+
+.rock-paper {
+	float: left;
+	margin: 15px;
+}
+
+.image-name {
+	position: absolute;
+	width: 275px;
+	background: #4aaaa5;
+	bottom: 0;
+	height: 45px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
 }
 
 .content {
-	background-image: url(ep_naturalwhite.png);
+	
 	min-height: 100%;
 	position: relative;
-	
-
 }
 
 .footer {
@@ -66,10 +108,10 @@
 	height: 50px;
 	width: 100%;
 	text-align: center;
-	color: white;
+	color: #ccc;
 	font-size: 12px;
 	padding-top: 10px;
-	
+	margin-top: 70px;
 
 }
 
@@ -101,20 +143,21 @@
 .main-section {
 	
 	position: absolute;
-	height: auto;
 	width: 650px;
 	background-color: white;
-	padding: 20px;
+	padding: 15px;
 	border: 1px solid #cccccc;
 	margin-top: 50px;
 	margin-left: 175px;
-
+	margin-bottom: 50px;
 }
 
-.about-me, .portfolio-h  {
+
+
+.about-me, .portfolio-h , .contact-me {
 	color: #4aaaa5;
 	border-bottom: 2px solid #cccccc;
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 }
 
 .about-me-content {
@@ -123,9 +166,23 @@
 	line-height: 30px;
 }
 
-.portfolio-content {
+.contact-content {
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.input-wrap {
+	padding-top: 3px;
 
 }
+
+.input-container {
+	margin: 15px;
+}
+
+
+
 
 .portfoliopic {
 	float: left;
@@ -139,11 +196,11 @@
 	border-bottom: 1px solid #cccccc;
 }
 
-h1 , h2 {
+h1 , h2 , h3 , h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-p {
+p , label , button {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -151,6 +208,49 @@ a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-decoration: none;
 	color: grey;
+}
+
+input {
+	height: 30px;
+	width: 200px;
+	border-color: 1px solid #ccc;
+	width: 100%;
+	font-size: 18px;
+	overflow: scroll;
+}
+
+.message {
+	height: 200px;
+	width: 200px;
+	width: 100%;
+	font-size: 18px;
+}
+
+button {
+	margin: 15px;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	color: white;
+	background-color: #4aaaa5;
+	border: none;
+	outline-color: #ccc;
+	outline-width: 3px;
+
+}
+
+textarea {
+	border: 1px solid #ccc;
+	overflow: scroll;
+}
+
+label {
+	
+	color: grey;
+}
+
+body {
+	background-image: url(ep_naturalwhite.png);
 }
 
 body, html {
